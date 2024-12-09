@@ -1,0 +1,18 @@
+.root{
+   -fx-background-image: url("../images/fondoLoteria.png");
+   -fx-background-repeat: stretch, no-repeat;
+   -fx-background-size: cover, 200px;
+   -fx-background-position: center, center;
+}
+.card-button {
+    -fx-padding: 5px;
+    -fx-background-radius: 10;
+    -fx-border-color: #333;
+    -fx-border-width: 2px;
+}
+.boton-iniciar {
+    -fx-font-size: 20px;
+    -fx-padding: 10px 20px;
+}
+
+

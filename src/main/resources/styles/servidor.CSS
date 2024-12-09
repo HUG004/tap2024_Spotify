@@ -1,0 +1,60 @@
+/* General styling */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-background-color: #f8f9fa; /* Bootstrap light background */
+    -fx-padding: 20px;
+}
+
+/* Tabla */
+.table-view {
+    -fx-border-color: #dee2e6; /* Bootstrap table border */
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+}
+
+/* Cabecera de la tabla */
+.table-view .column-header {
+    -fx-background-color: #007bff; /* Color de fondo azul para encabezado */
+    -fx-alignment: center; /* Centrado del contenido */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-weight: bold; /* Negrita */
+    -fx-font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Botones */
+.button {
+    -fx-background-color: #007bff; /* Bootstrap primary */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker primary on hover */
+}
+
+/* Barra de Progreso */
+.progress-bar {
+    -fx-accent: #28a745; /* Bootstrap success green */
+    -fx-border-radius: 5px;
+}
+
+/* Encabezados */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40; /* Bootstrap dark gray */
+}
+
+/* Contenedor principal */
+.container {
+    -fx-border-radius: 10px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #dee2e6;
+}

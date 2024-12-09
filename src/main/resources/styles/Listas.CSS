@@ -1,0 +1,67 @@
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-background-color: #f8f9fa;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+    -fx-padding: 10px 0;
+}
+
+
+.button {
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.btn-primary {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #0056b3;
+}
+
+.btn-secondary {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #5a6268;
+}
+
+.btn-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #c82333;
+}
+
+.btn-success {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+}
+
+.btn-success:hover {
+    -fx-background-color: #218838;
+}
+
+.background-black {
+    -fx-background-color: #191414;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; /* Cambiar texto a blanco */
+    -fx-padding: 10px 0;
+}

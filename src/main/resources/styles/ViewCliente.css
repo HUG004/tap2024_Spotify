@@ -1,0 +1,42 @@
+.background-dark {
+    -fx-background-color: #121212;
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1db954;
+    -fx-padding: 10px 0;
+}
+
+.table-view {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-primary {
+    -fx-background-color: #1db954;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #1ed760;
+}
+
+.btn-danger {
+    -fx-background-color: #ff4444;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-secondary {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #575757;
+}
